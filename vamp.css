@@ -1,0 +1,39 @@
+body{
+  background-image:url(vamppics/haunted-house-full-moon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.spooky{
+  height:70vh;
+}
+
+  #fly{
+    max-width:15%;
+      }
+
+  .drac{
+    width:30%;
+    position: relative;
+    left: 16em;
+      }
+
+  .ghost{
+    width:20%;
+    position: relative;
+    left: 10em;
+    bottom: 8em;
+    opacity: .6;
+      }
+
+  .quiz{
+    height:30vh;
+  }  
+
+  @media only screen and (min-width:700px) {
+    .ghost{
+      position: relative;
+      left: 35em;
+    }
+  }
